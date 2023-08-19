@@ -19,11 +19,12 @@ cd tortoise-tts
 python setup.py install
 
 conda install -c conda-forge pysoundfile
-[Uploading app.py…]()
 
-2. put app.py in tortois-tts folder
-3. conda activate tortoise
-4. python app.py
+
+2. [Uploading app.py…]()
+3. put app.py in tortois-tts folder
+4. conda activate tortoise
+5. python app.py
 
 The GUI allows you to insert text of any length. When the results appear in the Output window. Up to 50 words, 3 results appear. Over 50 words one result appears.
 
