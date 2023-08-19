@@ -2,6 +2,14 @@ GUI-INTERFACE
 
 ![gui](https://github.com/ShmuelRonen/tortoise-tts-GUI/assets/80190186/74c459c3-769f-486a-94f7-499000554e3d)
 
+Put app.py in tortoise-tts folder.
+1. conda activate tortoise
+2. python app.py
+
+The GUI allows you to insert text of any length. When the results appear in the Output window. Up to 50 words, 3 results appear. Over 50 words one result appears.
+
+There is an experimental option to choose 8 different emotions: "Neutral", "Happy", "Sad", "Scared", "Brave", "Angry", "Surprised", "Relaxed"
+
 
 # TorToiSe
 
