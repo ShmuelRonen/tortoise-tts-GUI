@@ -26,7 +26,7 @@ conda install -c conda-forge pysoundfile
 4. conda activate tortoise
 5. python app.py
 
-The GUI allows you to insert text of any length. When the results appear in the Output window. Up to 50 words, 3 results appear. Over 50 words one result appears.
+The GUI allows you to insert text up to 400 words. When the results appear in the Output window. Up to 50 words, 3 results appear. Over 50 words one result appears.
 
 There is an experimental option to choose 8 different emotions: "Neutral", "Happy", "Sad", "Scared", "Brave", "Angry", "Surprised", "Relaxed"
 
