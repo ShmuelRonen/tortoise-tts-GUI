@@ -2,7 +2,7 @@ GUI-INTERFACE
 
 ![gui](https://github.com/ShmuelRonen/tortoise-tts-GUI/assets/80190186/74c459c3-769f-486a-94f7-499000554e3d)
 
-1. Install tortoise-tts
+Install tortoise-tts:
 conda create --name tortoise python=3.9 numba inflect
 conda activate tortoise
 conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
