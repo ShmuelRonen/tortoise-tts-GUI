@@ -21,7 +21,7 @@ python setup.py install
 conda install -c conda-forge pysoundfile
 
 
-2. [Uploading app.py…]()
+2. [Download app.py…]()
 3. put app.py in tortois-tts folder
 4. conda activate tortoise
 5. python app.py
