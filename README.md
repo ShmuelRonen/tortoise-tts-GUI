@@ -2,9 +2,18 @@ GUI-INTERFACE
 
 ![gui](https://github.com/ShmuelRonen/tortoise-tts-GUI/assets/80190186/74c459c3-769f-486a-94f7-499000554e3d)
 
-Put app.py in tortoise-tts folder.
-1. conda activate tortoise
-2. python app.py
+1. Install tortoise-tts
+conda create --name tortoise python=3.9 numba inflect
+conda activate tortoise
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install transformers=4.29.2
+git clone https://github.com/neonbjb/tortoise-tts.git
+cd tortoise-tts
+python setup.py install
+conda install -c conda-forge pysoundfile
+------------
+2. conda activate tortoise
+3. python app.py
 
 The GUI allows you to insert text of any length. When the results appear in the Output window. Up to 50 words, 3 results appear. Over 50 words one result appears.
 
