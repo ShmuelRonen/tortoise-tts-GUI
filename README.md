@@ -11,7 +11,7 @@ git clone https://github.com/neonbjb/tortoise-tts.git
 cd tortoise-tts
 python setup.py install
 conda install -c conda-forge pysoundfile
-------------
+
 2. conda activate tortoise
 3. python app.py
 
